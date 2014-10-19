@@ -5,10 +5,14 @@ layout: cheats
 <p>here be tools</p>
 
 <ul>
-	{% for post in site.categories.tools%}
-	<li>
-		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-		<p>{{post.meta}}</p>
-	</li>
+	{% for cheat in site.pages %}
+		{% if cheat.category == 'tools' %}	
+			<li>
+				<h4>{{cheat.category}}</h4>
+				<p>{{cheat.url}}</p>
+				<a href="{{site.baseurl}}{{cheat.url}}">{{cheat.title}}</a>
+				<p>{{cheat.meta}}</p>
+			</li>
+		{% endif %}
 	{% endfor %}
 </ul>
