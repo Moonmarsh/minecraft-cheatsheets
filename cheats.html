@@ -3,3 +3,21 @@ layout: default
 ---
 <h1>Cheats</h1>
 <p>here be cheats</p>
+
+<ul>
+	{% for post in site.categories.tools%}
+	<li>
+		<a href="">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for post in site.categories.redstone%}
+	<li>
+		<a href="">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
