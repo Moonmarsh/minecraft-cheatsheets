@@ -1,9 +1,9 @@
 ---
 layout: cheats-item
 title: Redstone Torch
-meta: Shoking light
+meta: Shocking light
 category: redstone
-source: http://moonmarsh.com/picture-of-redstone
+source: http://picture-of-redstone
 ---
 - 1xstick
 - 1xredstone
