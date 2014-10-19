@@ -1,0 +1,5 @@
+---
+markdown: redcarpet
+baseurl: /minecraft-cheatsheets
+exclude: ['README.md']
+
