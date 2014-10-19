@@ -1,5 +1,5 @@
 ---
-layout: cheats
+layout: cheats-item
 title: Redstone Torch
 meta: Shoking light
 category: redstone

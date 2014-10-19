@@ -1,0 +1,14 @@
+---
+layout: cheats
+---
+<h4>All Cheats</h4>
+<p>Here be all the Cheats for your minecrafting pleasure</p>
+
+<ul>
+	{% for post in site.posts%}
+	<li>
+		<a href="">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

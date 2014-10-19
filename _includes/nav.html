@@ -2,6 +2,6 @@
 	<ul class="nav {{include.navclass}}">
 		<li><a class="{%if page.url == '/index.html'%}current{%endif%}" href="{{site.baseurl}}/index.html">Home</a></li>
 		<li><a class="{%if page.url == '/news.html'%}current{%endif%}" href="{{site.baseurl}}/news.html">News</a></li>
-		<li><a class="{%if page.url == '/cheats.html'%}current{%endif%}" href="{{site.baseurl}}/cheats.html">Cheats</a></li>
+		<li><a class="{% if page.url contains 'cheats' or page.url contains 'tools' or page.url contains 'redstone' or page.url contains 'enchanting' %}current{%endif%}" href="{{site.baseurl}}/cheats.html">Cheats</a></li>
 	</ul>
 </nav>

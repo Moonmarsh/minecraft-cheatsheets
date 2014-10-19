@@ -1,5 +1,5 @@
 ---
-layout: cheats
+layout: cheats-item
 title: Enchanting Table
 meta: Power Up time
 category: enchanting
