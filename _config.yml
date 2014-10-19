@@ -1,5 +1,5 @@
 ---
 markdown: redcarpet
 baseurl: /minecraft-cheatsheets
-exclude: ['README.md']
+exclude: ['README.md', 'LICENSE']
 
