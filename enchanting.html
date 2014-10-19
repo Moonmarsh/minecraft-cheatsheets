@@ -1,0 +1,14 @@
+---
+layout: cheats
+---
+<h1>Enchanting</h1>
+<p>here be Enchanting</p>
+
+<ul>
+	{% for post in site.categories.enchanting%}
+	<li>
+		<a href="">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

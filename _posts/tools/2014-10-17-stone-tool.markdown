@@ -1,5 +1,5 @@
 ---
-layout: cheat
+layout: cheats
 title: Stone Axe
 meta: Wood slayer
 category: tools
