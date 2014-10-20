@@ -5,10 +5,12 @@ layout: cheats
 <p>Here be all the Cheats for your minecrafting pleasure</p>
 
 <ul>
-  {% for post in site.pages%}
-  <li>
-    <a href="">{{post.title}}</a>
-    <p>{{post.meta}}</p>
-  </li>
+  {% for cheat in site.pages%}
+    {% if cheat.layout == 'cheats-item' %}
+      <li>
+        <a href="{{cheat.url}}">{{cheat.title}}</a>
+        <p>{{cheat.meta}}</p>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
