@@ -5,7 +5,7 @@ meta: Wood slayer
 category: tools
 source:
 ---
-
-
-- 2xstick
-- 3xcobblestone
+Quantity | Item
+:---: | :---
+2 | stick
+3 | Cobblestone
