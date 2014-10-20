@@ -2,7 +2,7 @@
 layout: cheats-item
 title: Stone Axe
 meta: Wood slayer
-category: tools
+cheat-type: tools
 source:
 ---
 Quantity | Item

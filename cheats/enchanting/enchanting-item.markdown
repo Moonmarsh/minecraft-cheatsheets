@@ -2,7 +2,7 @@
 layout: cheats-item
 title: Enchanting Table
 meta: Power Up time
-category: enchanting
+cheat-type: enchanting
 source: http://picture-of-enchanting-table
 ---
 - 1xDiamond
